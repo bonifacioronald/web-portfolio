@@ -1,0 +1,11 @@
+.project-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.project-card {
+    padding: 3em;
+    background-color: var(--color-bg-secondary);
+    color: var(--color-text-primary);
+}

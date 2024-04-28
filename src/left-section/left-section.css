@@ -1,0 +1,25 @@
+.layout-left {
+    min-height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 8em;
+    position: fixed;
+}
+  
+.name {
+    font-size: 5em;
+    color: var(--color-text-primary);
+}
+
+.role {
+    font-size: 2em;
+    color: var(--color-text-primary);
+}
+
+.description {
+    font-size: 1.25em;
+    line-height: 2em;
+    color: var(--color-text-secondary);
+}
