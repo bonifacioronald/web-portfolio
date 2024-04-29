@@ -1,4 +1,4 @@
-import React, { useDebugValue } from "react";
+import React from "react";
 import "./edu-exp.css";
 import 'bootstrap/dist/css/bootstrap.css';
 

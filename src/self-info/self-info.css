@@ -9,7 +9,13 @@
 }
 
 .description {
-    font-size: 1.25em;
+    font-size: var(--fs-paragraph);
     line-height: 2em;
     color: var(--color-text-secondary);
+}
+
+.cv-link {
+    font-size: 1em;
+    color: var(--color-text-primary);
+    text-decoration: underline;
 }
