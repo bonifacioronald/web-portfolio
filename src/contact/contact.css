@@ -23,8 +23,8 @@ img:hover {
     border-radius: 50%;
 }
 
-a {
-    font-size: 1.3em;
+.contact-item {
+    font-size: var(--fs-paragraph);
     color: var(--color-text-primary);
     text-decoration: none;
 }

@@ -1,0 +1,49 @@
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+.exp-edu-layout {
+    display: grid;
+    grid-template-columns: 15% auto;
+    grid-gap: 2em;
+    transition: transform 0.25s ease;
+}
+
+.exp-edu-layout:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.divider {
+    border-top: 3px solid var(--color-text-secondary);
+}
+
+.duration {
+    font-size: var(--fs-paragraph);
+    color: var(--color-text-secondary) !important;
+}
+
+.exp-edu-detail-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.exp-edu-title {
+    font-size: 2em;
+    vertical-align: top;
+    color: white !important;
+}
+
+.exp-edu-title i {
+    font-size: 0.6em;
+    vertical-align: center;
+    color: white !important;
+}
+
+.exp-edu-description {
+    font-size: var(--fs-paragraph);
+    line-height: 2em;
+    color: var(--color-text-secondary);
+}

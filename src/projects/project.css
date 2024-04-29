@@ -5,6 +5,7 @@
 }
 
 .project-card {
+    cursor: pointer;
     padding: 3em;
     background-color: var(--color-bg-secondary);
     color: var(--color-text-primary);
