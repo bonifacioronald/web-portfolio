@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 function LeftSection() {
   return (
-    <div className="layout-left">
+    <>
         <div className="top-section">
             <h1 className="name roboto-bold mb-3">Bonifacio Ronald</h1>
             <h2 className="role roboto-regular mb-5">Software Developer & Blockchain Engineer</h2>
@@ -13,7 +13,7 @@ function LeftSection() {
       <div className="bottom-section">
         <h1>Contact Session</h1>
       </div>
-    </div>
+    </>
   );
 }
 

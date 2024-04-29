@@ -1,14 +1,13 @@
 import './App.css';
 import LeftSection from './left-section/left-section';
-import RightSection from './right-section/right-section';
+import ProjectSection from './projects/project-section';
 
 function App() {
   return (
     <div className="App">
-      <LeftSection/>
       <div className="layout-container">
-        <div></div>
-        <RightSection/>
+        <div className='left-section'><LeftSection/></div>
+        <div className='right-section'><ProjectSection/><ProjectSection/><ProjectSection/></div>
       </div>
     </div>
   );

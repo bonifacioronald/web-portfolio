@@ -1,11 +1,11 @@
 .layout-left {
     min-height: 100vh;
-    width: 50%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     padding: 8em;
-    position: fixed;
+    position: sticky;
+    top: 0;
 }
   
 .name {
