@@ -3,7 +3,7 @@
     justify-content: start;
     align-items: center;
     flex-direction: row;
-    gap: 2em;
+    gap: 3em;
     color : var(--color-text-primary)
 }
 
@@ -12,18 +12,23 @@ img {
 }
 
 img:hover {
-    -webkit-transform: scale(1.25);
+    -webkit-transform: scale(1.5);
     /* or some other value */
-    transform: scale(1.25);
-}
-
-a {
-    font-size: 1.25em;
-    color: var(--color-text-primary);
+    transform: scale(1.5);
 }
 
 .circle-avatar {
-    height: 80px;
-    width: 80px;
+    height: 65px;
+    width: 65px;
     border-radius: 50%;
+}
+
+a {
+    font-size: 1.3em;
+    color: var(--color-text-primary);
+    text-decoration: none;
+}
+
+i {
+    color: white;
 }
