@@ -18,6 +18,17 @@
   gap: 4em;
 }
 
+.copyright {
+  text-align: center;
+  font-size: 1.3em;
+  color: color-mix(in srgb, var(--color-text-primary) 10%, transparent)
+}
+
+.copyright-link {
+  font-size: 1em;
+  color: color-mix(in srgb, var(--color-text-primary) 30%, transparent)
+}
+
 @media only screen and (max-width: 1100px) {
   .layout-container {
     grid-template-columns: 1fr;
