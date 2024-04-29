@@ -11,7 +11,12 @@ function App() {
           <div><SelfInfoSection/></div>
           <div><ContactSection/></div>
           </div>
-        <div className='right-section'><ProjectSection/><ProjectSection/><ProjectSection/></div>
+        <div className='right-section'>
+          <ProjectSection/>
+          <ProjectSection/>
+          <ProjectSection/>
+          <h5 className='mt-5'>Made with React.js by Bonifacio Ronald @ 2024<br/>Design inspired by Nicolas Meuzard</h5>
+        </div>
       </div>
     </div>
   );
