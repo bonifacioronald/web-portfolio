@@ -1,0 +1,29 @@
+.contact-layout {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    gap: 2em;
+    color : var(--color-text-primary)
+}
+
+img {
+    transition: transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform: scale(1.25);
+    /* or some other value */
+    transform: scale(1.25);
+}
+
+a {
+    font-size: 1.25em;
+    color: var(--color-text-primary);
+}
+
+.circle-avatar {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
