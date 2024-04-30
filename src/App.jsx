@@ -3,6 +3,7 @@ import SelfInfoSection from './self-info/self-info-section';
 import ProjectSection from './projects/project-section';
 import ContactSection from './contact/contact-section';
 import EduExpSection from './edu-exp/edu-exp-section';
+import AwardsSection from './awards/awards-section';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <div className='right-section'>
           <ProjectSection/>
           <EduExpSection/>
-          <ProjectSection/>
+          <AwardsSection/>
           <h5 className='copyright mt-5'>Made with React.js by Bonifacio Ronald @ 2024<br/>Design inspired by <a className='copyright-link' href="https://dribbble.com/NicolasMzrd">Nicolas Meuzard</a></h5>
         </div>
       </div>
