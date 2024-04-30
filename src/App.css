@@ -52,6 +52,7 @@
   .left-section {
       max-height: 100vh;
       padding: 8em;
+      padding-right: 12em;
       position: sticky;
       top: 0;
     }

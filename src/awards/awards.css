@@ -40,12 +40,17 @@
     justify-content: space-between;
     align-items: center;
     font-style: italic;
-    font-size: 2em;
+    font-size: var(--fs-heading);
     color: var(--color-text-primary);
 }
 
 @media only screen and (min-width: 1589px) {
     .award-container.lowered {
         transform: translateY(50px);
+    }
+
+    .award-container.lowered:hover {
+        transform: scale(1.1) translateY(50px);
+        z-index: 2;
     }
 }

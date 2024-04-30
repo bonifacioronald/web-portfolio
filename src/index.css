@@ -13,7 +13,9 @@
   --color-bg-secondary: #282828;
   --color-text-primary: #ffffff;
   --color-text-secondary: #8b8b8b;
-  --fs-paragraph: 1.25em;
+  --fs-heading: 1.8em;
+  --fs-paragraph: 1.2em;
+  --fs-line-height: 1.75em;
 
 }
 

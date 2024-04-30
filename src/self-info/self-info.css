@@ -1,16 +1,16 @@
 .name {
-    font-size: 5em;
+    font-size: 4.5em;
     color: var(--color-text-primary);
 }
 
 .role {
-    font-size: 2em;
+    font-size: var(--fs-heading);
     color: var(--color-text-primary);
 }
 
 .description {
     font-size: var(--fs-paragraph);
-    line-height: 2em;
+    line-height: var(--fs-line-height);
     color: var(--color-text-secondary);
 }
 

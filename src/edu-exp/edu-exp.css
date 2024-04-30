@@ -31,7 +31,7 @@ a {
 }
 
 .exp-edu-title {
-    font-size: 2em;
+    font-size: var(--fs-heading);
     vertical-align: top;
     color: white !important;
 }
@@ -44,6 +44,6 @@ a {
 
 .exp-edu-description {
     font-size: var(--fs-paragraph);
-    line-height: 2em;
+    line-height: var(--fs-line-height);
     color: var(--color-text-secondary);
 }
