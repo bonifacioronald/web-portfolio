@@ -20,7 +20,7 @@
 
 .copyright {
   text-align: center;
-  font-size: 1.3em;
+  font-size: var(--fs-paragraph);
   color: color-mix(in srgb, var(--color-text-primary) 10%, transparent)
 }
 

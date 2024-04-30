@@ -4,15 +4,33 @@ import ProjectSection from './projects/project-section';
 import ContactSection from './contact/contact-section';
 import EduExpSection from './edu-exp/edu-exp-section';
 import AwardsSection from './awards/awards-section';
+import PageScrollSection from './page-scroll/page-scroll-section';
+import { useState, useEffect } from 'react';
 
 function App() {
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const handleScroll = () => {
+      const position = window.pageYOffset;
+      setScrollPosition(position);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    return () => {
+        window.removeEventListener('scroll', handleScroll);
+    };
+  })
+
   return (
     <div className="App">
       <div className="layout-container">
         <div className='left-section'>
-          <div className='mb-5'><SelfInfoSection/></div>
+          <div><SelfInfoSection/></div>
+          {/* scrollPosition: {scrollPosition} */}
+          <div><PageScrollSection scrollPosition={scrollPosition}/></div>
           <div><ContactSection/></div>
-          </div>
+        </div>
         <div className='right-section'>
           <ProjectSection/>
           <EduExpSection/>
