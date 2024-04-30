@@ -9,9 +9,9 @@ function PageScrollSection({scrollPosition}) {
 
     return (
         <div className="page-scroll-layout">
-            <p className={`page-scroll-item ${scrollPosition < projectSectionScrollBreakpoint ? 'focused' : ''}`}>01 - Projects</p>
-            <p className={`page-scroll-item ${scrollPosition >= projectSectionScrollBreakpoint && scrollPosition < eduExpSectionScrollBreakpoint ? 'focused' : ''}`}>02 - Education & Experience</p>
-            <p className={`page-scroll-item ${scrollPosition >= eduExpSectionScrollBreakpoint ? 'focused' : ''}`}>03 - Awards</p>
+            <p className={`page-scroll-item cutive-mono-regular ${scrollPosition < projectSectionScrollBreakpoint ? 'focused' : ''}`}>01 - Projects</p>
+            <p className={`page-scroll-item cutive-mono-regular ${scrollPosition >= projectSectionScrollBreakpoint && scrollPosition < eduExpSectionScrollBreakpoint ? 'focused' : ''}`}>02 - Education & Experience</p>
+            <p className={`page-scroll-item cutive-mono-regular ${scrollPosition >= eduExpSectionScrollBreakpoint ? 'focused' : ''}`}>03 - Awards</p>
         </div>
     );
 }

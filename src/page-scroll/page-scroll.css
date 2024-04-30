@@ -6,12 +6,12 @@
 .page-scroll-item {
     font-size: var(--fs-paragraph);
     color: var(--color-text-primary);
-    transition: transform 0.25s ease;
+    transition: transform 0.25s ;
     filter: opacity(50%);
 }
 
 .page-scroll-item.focused {
-    transform: scale(1.2) translateX(51px);
+    transform: scale(1.05) ;
     filter: opacity(100%);
     font-weight: bold;
 }

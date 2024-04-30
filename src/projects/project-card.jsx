@@ -8,7 +8,7 @@ function ProjectCard({ project, isHovered, onMouseEnter, onMouseLeave }) {
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
         >
-            <span>{project.techStack}</span>
+            <span className="cutive-mono-regular">{project.techStack}</span>
             <h1>{project.title}</h1>
             <h2>{project.description}</h2>
             <h3>{project.githubUrl}</h3>

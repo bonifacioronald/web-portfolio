@@ -55,7 +55,7 @@ function AwardsSection() {
                             onMouseEnter={() => setHoveredAward(index)}
                             onMouseLeave={() => setHoveredAward(null)}>
                             <div >
-                                <p className="award-competition"><b>{award.competiton}</b></p>
+                                <p className="award-competition cutive-mono-regular"><b>{award.competiton}</b></p>
                                 <p className="award-info">{award.organizer}<br/>{award.date}</p>
                             </div>
                             <div className="award-title">
