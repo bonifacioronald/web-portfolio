@@ -8,13 +8,16 @@ function ProjectSection() {
 
     const projects = [
         {
-            title: 'DAO', techStack: 'Angular, Java', description: 'Real-time collaboration focus session', githubUrl: '..',
+            title: '💻 Dao', techStack: 'Angular, Typescript, Java, SpringBoot, JHipster, PostgreSQL, GitLab CI/CD', description: 'A Full Stack Productivity & Collaboration Website For Students', projectUrl: '', githubUrl: '',
         },
         {
-            title: 'DAO', techStack: 'Angular, Java', description: 'Real-time collaboration focus session', githubUrl: '..',
+            title: '🤖 Intervue', techStack: 'Dart, Flutter, Firebase, OpenAI API', description: 'An AI-Powered CV Screening and Interview Automation Website', projectUrl: '', githubUrl: 'https://github.com/sexxyrexxy/Intervue', 
         },
         {
-            title: 'DAO', techStack: 'Angular, Java', description: 'Real-time collaboration focus session', githubUrl: '..',
+            title: '🌐 Personal Portfolio', techStack: 'React, Javascript, HTML, CSS, Bootstrap', description: 'A Personal Portfolio Website Project', projectUrl: '.',githubUrl: 'https://github.com/bonifacioronald/web-portfolio', 
+        },
+        {
+            title: '🤱 Carve', techStack: ' Dart, Flutter, Firebase', description: 'An Award-Winning Pregnancy Companion Mobile Application', projectUrl: '', githubUrl: 'https://github.com/bonifacioronald/carve',
         },
     ];
 

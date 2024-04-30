@@ -35,7 +35,7 @@ function App() {
           <ProjectSection/>
           <EduExpSection/>
           <AwardsSection/>
-          <h5 className='copyright mt-5'>Made with React.js by Bonifacio Ronald @ 2024<br/>Design inspired by <a className='copyright-link' href="https://dribbble.com/NicolasMzrd">Nicolas Meuzard</a></h5>
+          <h5 className='copyright mt-5'>Made by Bonifacio Ronald @ 2024<br/>Design inspired by <a className='copyright-link' href="https://dribbble.com/NicolasMzrd">Nicolas Meuzard</a></h5>
         </div>
       </div>
     </div>

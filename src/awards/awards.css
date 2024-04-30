@@ -13,6 +13,7 @@
     transition: transform 0.25s ease;
     background-color: var(--color-bg-secondary);
     z-index: 1;
+    position: relative;
 }
 
 .award-container.darkened {
@@ -41,6 +42,11 @@
     align-items: center;
     font-style: italic;
     font-size: var(--fs-heading);
+    color: var(--color-text-primary);
+}
+
+.award-title i {
+    font-size: 0.6em;
     color: var(--color-text-primary);
 }
 

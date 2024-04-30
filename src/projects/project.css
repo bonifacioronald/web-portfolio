@@ -1,12 +1,14 @@
 .project-layout {
     display: flex;
     flex-direction: column;
-    gap: 0.8em;
+    gap: 1em;
 }
 
 .project-card {
-    cursor: pointer;
+    display: flex;
+    flex-direction: column;
     padding: 3em;
+    gap: 1em;
     background-color: var(--color-bg-secondary);
     color: var(--color-text-primary);
     transition: transform 0.25s ease;
@@ -21,4 +23,31 @@
 .project-card:hover {
     transform: scale(1.1);
     z-index: 2;
+}
+
+.project-techstack {
+    font-size: var(--color-text-primary);
+}
+
+.project-title {
+    font-size: var(--fs-heading);
+    font-weight: bold;
+}
+
+.project-description {
+    font-size: var(--fs-paragraph);
+    color: var(--color-text-secondary);
+}
+
+.project-link {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    font-size: var(--fs-paragraph);
+    color: var(--color-text-primary);
+    text-decoration: none;
+}
+
+.link-item:hover {
+    filter: opacity(50%);
 }
